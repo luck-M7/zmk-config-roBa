@@ -69,11 +69,11 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                 &kp T                                                      &kp Y            &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                 &kp G        &kp LS(LG(S))                    &kp PLUS     &kp H            &kp J  &kp K      &kp L    &mt RIGHT_SHIFT SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &kp TILDE                        &kp MINUS    &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &kp GRAVE                        &kp MINUS    &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 TAB  &lt 7 SPACE  &lt_to_layer_0 1 INT_MUHENKAN    &lt 3 ENTER  &lt 3 BACKSPACE                             &to 2
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         ARROW {
